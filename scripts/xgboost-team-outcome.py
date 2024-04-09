@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import xgboost as xgb
 from sklearn.metrics import accuracy_score
-from sklearn.preprocessing import LabelEncoder
 
 # Load the dataset
 data = pd.read_csv('../dataset/v5-without-na-players-and-outcomes-0-and-1.csv')

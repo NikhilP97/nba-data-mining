@@ -20,9 +20,9 @@ def keep_columns(input_file, output_file, columns_to_keep):
 
 # Example usage
 if __name__ == "__main__":
-    input_file = '../dataset/matchups-original.csv'  # Specify the input CSV file
-    output_file = '../dataset/original-only-players-and-outcome.csv'  # Specify the output CSV file
-    columns_to_keep = ['home_0', 'home_1', 'home_2', 'home_3', 'home_4', 'away_0', 'away_1', 'away_2', 'away_3', 'away_4', 'outcome']  # Specify the columns to keep
+    input_file = '../dataset/v6-with-scores.csv'  # Specify the input CSV file
+    output_file = '../dataset/v7-with-scores-only-players'  # Specify the output CSV file
+    columns_to_keep = ['home_0', 'home_1', 'home_2', 'home_3', 'home_4', 'away_0', 'away_1', 'away_2', 'away_3', 'away_4', 'score']  # Specify the columns to keep
     
     # Call the function
     keep_columns(input_file, output_file, columns_to_keep)
